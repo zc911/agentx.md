@@ -5,43 +5,43 @@ const Home = () => {
     {
       name: 'AutoGPT Next',
       icon: '🤖',
-      description: '完全自主的通用智能体，能够独立完成复杂任务，支持长期记忆和工具调用。',
-      tags: ['通用智能体', '开源', '自主执行'],
+      description: 'Fully autonomous general-purpose agent capable of independently completing complex tasks with long-term memory and tool calling support.',
+      tags: ['General Agent', 'Open Source', 'Autonomous Execution'],
       url: 'https://github.com/Significant-Gravitas/AutoGPT'
     },
     {
       name: 'Agent Protocol',
       icon: '🔌',
-      description: '智能体之间的通用通信协议，实现不同Agent平台的互联互通和能力共享。',
-      tags: ['协议标准', '跨平台', '互操作'],
+      description: 'Universal communication protocol between agents enabling interoperability and capability sharing across different Agent platforms.',
+      tags: ['Protocol Standard', 'Cross-Platform', 'Interoperability'],
       url: 'https://agentprotocol.ai'
     },
     {
       name: 'Multi-Agent Collaboration Framework',
       icon: '👥',
-      description: '多智能体协同工作框架，支持角色分工、任务分配和团队协作完成复杂项目。',
-      tags: ['多智能体', '协同', '团队协作'],
+      description: 'Multi-agent collaborative framework supporting role specialization, task allocation, and team collaboration for complex projects.',
+      tags: ['Multi-Agent', 'Collaboration', 'Teamwork'],
       url: '#'
     },
     {
       name: 'Agent Memory System',
       icon: '🧠',
-      description: '智能体专用长期记忆系统，支持向量检索、记忆召回和经验学习。',
-      tags: ['记忆系统', '向量数据库', 'RAG'],
+      description: 'Specialized long-term memory system for agents with vector retrieval, memory recall, and experience learning capabilities.',
+      tags: ['Memory System', 'Vector DB', 'RAG'],
       url: '#'
     },
     {
       name: 'Agent Tool Marketplace',
       icon: '🛠️',
-      description: '智能体工具市场，提供数千种预构建的工具插件，一键扩展Agent能力边界。',
-      tags: ['工具生态', '插件市场', '能力扩展'],
+      description: 'Agent tool marketplace providing thousands of pre-built tool plugins to extend Agent capabilities with one click.',
+      tags: ['Tool Ecosystem', 'Plugin Market', 'Capability Extension'],
       url: '#'
     },
     {
       name: 'Agent Security Shield',
       icon: '🛡️',
-      description: '智能体安全防护系统，实时监控Agent行为，防止恶意操作和数据泄露。',
-      tags: ['安全防护', '行为审计', '风险控制'],
+      description: 'Agent security protection system that monitors Agent behavior in real-time to prevent malicious operations and data leaks.',
+      tags: ['Security', 'Behavior Audit', 'Risk Control'],
       url: '#'
     }
   ]
@@ -51,15 +51,15 @@ const Home = () => {
       <section className="hero">
         <div className="container">
           <h1>Agent X</h1>
-          <p>下一代智能体平台与协议，定义智能体交互的未来标准</p>
-          <a href="/resources" className="cta-button">探索开发资源</a>
+          <p>Next-generation agent platform and protocol defining the future standards of agent interaction</p>
+          <a href="/resources" className="cta-button">Explore Developer Resources</a>
         </div>
       </section>
 
       <main>
         <div className="container">
           <section className="section">
-            <h2>精选Agent项目展示</h2>
+            <h2>Featured Agent Projects</h2>
             <div className="project-grid">
               {projects.map((project, index) => (
                 <div className="project-card" key={index}>
@@ -75,7 +75,7 @@ const Home = () => {
                       ))}
                     </div>
                     <a href={project.url} target="_blank" rel="noopener noreferrer" className="project-link">
-                      了解详情 →
+                      Learn More →
                     </a>
                   </div>
                 </div>
@@ -84,20 +84,20 @@ const Home = () => {
           </section>
 
           <section className="section">
-            <h2>Agent X 生态愿景</h2>
-            <div style={{ maxWidth: '800px', margin: '0 auto', background: '#f8f9fa', padding: '2rem', borderRadius: '12px' }}>
-              <p style={{ marginBottom: '1.5rem', fontSize: '1.1rem' }}>
-                Agent X 致力于构建开放、互通的智能体生态系统，打破不同智能体平台之间的壁垒，实现：
+            <h2>Agent X Ecosystem Vision</h2>
+            <div style={{ maxWidth: '800px', margin: '0 auto', background: 'var(--bg-secondary)', padding: '2rem', borderRadius: '12px', border: '1px solid var(--border)' }}>
+              <p style={{ marginBottom: '1.5rem', fontSize: '1.1rem', color: 'var(--text-primary)' }}>
+                Agent X is dedicated to building an open, interconnected agent ecosystem that breaks down barriers between different agent platforms, enabling:
               </p>
-              <ul style={{ marginLeft: '2rem', marginBottom: '1.5rem', lineHeight: '2.2', fontSize: '1.05rem' }}>
-                <li>🌐 <strong>统一协议标准</strong>：定义智能体之间的通用通信协议，实现跨平台互操作</li>
-                <li>🔄 <strong>能力自由流转</strong>：智能体的能力可以在不同平台之间自由迁移和调用</li>
-                <li>🤝 <strong>多方协同网络</strong>：支持成千上万的智能体组成协作网络，共同完成超大规模任务</li>
-                <li>⚡ <strong>创新加速引擎</strong>：降低智能体开发门槛，让更多开发者参与到Agent生态建设中</li>
-                <li>🔒 <strong>安全可信体系</strong>：建立智能体身份认证、行为审计和责任追溯机制</li>
+              <ul style={{ marginLeft: '2rem', marginBottom: '1.5rem', lineHeight: '2.2', fontSize: '1.05rem', color: 'var(--text-secondary)' }}>
+                <li>🌐 <strong>Unified Protocol Standards</strong>: Define universal communication protocols between agents for cross-platform interoperability</li>
+                <li>🔄 <strong>Free Capability Flow</strong>: Agent capabilities can be freely migrated and invoked across different platforms</li>
+                <li>🤝 <strong>Multi-Party Collaboration Network</strong>: Support thousands of agents forming collaborative networks to complete ultra-large-scale tasks</li>
+                <li>⚡ <strong>Innovation Acceleration Engine</strong>: Lower the barrier to agent development, allowing more developers to participate in building the Agent ecosystem</li>
+                <li>🔒 <strong>Secure and Trustworthy System</strong>: Establish mechanisms for agent identity authentication, behavior auditing, and responsibility tracing</li>
               </ul>
-              <p style={{ fontSize: '1.1rem', fontWeight: '500' }}>
-                我们相信，未来的数字世界将由数百万个智能体共同组成，Agent X 正在为这个愿景提供核心基础设施。
+              <p style={{ fontSize: '1.1rem', fontWeight: '500', color: 'var(--text-primary)' }}>
+                We believe the future digital world will be composed of millions of agents working together, and Agent X is providing the core infrastructure for this vision.
               </p>
             </div>
           </section>
